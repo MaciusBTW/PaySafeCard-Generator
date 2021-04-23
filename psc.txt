@@ -8,3 +8,5 @@ echo Work in progress!
 PING localhost -n 6 >NUL
 echo Your code is :0%random:~0,3%-%random:~0,4%-%random:~0,4%-%random:~0,4%-
 pause
+
+https://github.com/MaciusBTW/PaySafeCard-Generator
