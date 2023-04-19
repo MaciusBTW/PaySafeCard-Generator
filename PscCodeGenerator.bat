@@ -31,13 +31,6 @@
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
-@echo off
-color 2
-echo PaySafeCard code generator::Created by MaciusBTW#4878
-PING localhost -n 4 >NUL
-echo press any key to generate code
-pause >>null
-echo Work in progress!
-PING localhost -n 6 >NUL
-echo Your code is:0%random:~0,3%-%random:~0,4%-%random:~0,4%-%random:~0,4%
-pause
+@echo off & color 2 & echo PaySafeCard code generator::Created by MaciusBTW#4878 & echo.Press any key to generate code & pause >>null
+:gen
+color 4 & cls & set kod=0%random:~0,3%-%random:~0,4%-%random:~0,4%-%random:~0,4% & echo %kod% | clip & echo.%kod% & pause >>null & goto gen
